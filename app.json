@@ -35,7 +35,6 @@
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "value": ""
-      "required": false
     },
     "CHUNK_SIZE": {
       "description": "should be an integer",
@@ -107,7 +106,6 @@
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "value": ""
-      "required": false
     },
     "DOWNLOAD_LOCATION": {
       "description": "download location",
