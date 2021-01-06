@@ -40,76 +40,61 @@
     "CHUNK_SIZE": {
       "description": "should be an integer",
       "value": "128",
-      "required": false
     },
     "ARIA_TWO_STARTED_PORT": {
       "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
       "value": "6800",
-      "required": false
     },
     "EDIT_SLEEP_TIME_OUT": {
       "description": "should be an integer. Number of seconds to wait before editing a message.",
       "value": "15",
-      "required": false
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
       "value": "600"
-      "required": false
     },
     "FINISHED_PROGRESS_STR": {
       "description": "should be a single character.",
       "value": "⬢"
-      "required": false
     },
     "UN_FINISHED_PROGRESS_STR": {
       "description": "should be a single character.",
       "value": "⬡"
-      "required": false
     },
     "TG_OFFENSIVE_API": {
       "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
-      "required": false
     },
     "LEECH_COMMAND": {
       "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
       "value": "getfile@AiTorrentWare_Bot"
-      "required": false
     },
     "INDEX_LINK": {
       "description": "Enter your index link:",
       "value": "https://bot.aitorrentware.workers.dev/AiTorrentWare_Bot"
-      "required": false
     },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
       "value": "loadlink@AiTorrentWare_Bot"
-      "required": false
     },
     "TELEGRAM_LEECH_COMMAND_G": {
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
       "value": "loadfile@AiTorrentWare_Bot"
-      "required": false
     },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
       "value": "utube@AiTorrentWare_Bot"
-      "required": false
     },
     "PYTDL_COMMAND_G": {
       "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
       "value": "utube@AiTorrentWare_Bot"
-      "required": false
     },
     "CANCEL_COMMAND_G": {
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
       "value": "cancel"
-      "required": false
     },
     "GET_SIZE_G": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "value": "getsize@AiTorrentWare_Bot"
-      "required": false
     },
     "RCLONE_CONFIG": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
@@ -118,7 +103,6 @@
     "DESTINATION_FOLDER": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
       "value": "AiTorrentWare_Bot"
-      "required": false
     },
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
@@ -127,7 +111,6 @@
     },
     "DOWNLOAD_LOCATION": {
       "description": "download location",
-      "value": "./DOWNLOADS"
     },
     "MAX_FILE_SIZE": {
       "description": "MAX FILE SIZE",
