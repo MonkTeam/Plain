@@ -4,9 +4,9 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/MonkTeam/GDrive",
+  "repository": "https://github.com/MonkTeam/Plain",
   "success_url": "https://t.me/AiTorrent_Ware",
-  "website": "https://github.com/MonkTeam/GDrive",
+  "website": "https://github.com/MonkTeam/Plain",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
